@@ -1,0 +1,26 @@
+
+		
+		<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+function validate(){
+    var x = document.getElementbyId('a').value;
+    input=x.myInput.value
+    if (input.length<3){
+        alert("more charcters needed")
+        return false
+    }}
+
+</script>
+</head>
+<body>
+
+<form name="myForm" action="a.html" onsubmit="return validate()" method="post">
+  Name: <input  id = "a" type="text" >
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
